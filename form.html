@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <!-- logo -->
+        <img src="https://nitte.edu.in/nmamit/img/nitte-nmamit-logo.png" alt="">
+        <div class="logo">Nitte Mahalinga Adyantaya Memorial Institute of Technology</div>
+    </header>
+    <nav>
+        <ul class="ul" type="none">
+            <li class="li"><a class="a" href="index.html">Home</a></li>
+            <li class="li" id="dept"><a class="a" href="about.html">Department</a>
+                <ul class="popup" type="none">
+                    <li><a href="">CSE</a></li>
+                    <li><a href="">ISE</a></li>
+                </ul>
+            </li>
+            <li class="li"><a class="a" href="about.html">Resources</a></li>
+            <li class="li"><a class="a" href="form.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <form action="">
+        <fieldset>
+            <legend>Login:</legend>
+            <label for="fname">First name:</label>
+            <input class="text" type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input class="text" type="text" id="lname" name="lname"><br><br>
+            <label for="email">Email:</label>
+            <input class="email" type="email" id="email" name="email"><br><br>
+            <label for="birthday">Birthday:</label>
+            <input class="date" type="date" id="birthday" name="birthday"><br><br>
+            <input class="button" type="submit" value="Submit">
+          </fieldset>
+    </form>
+</body>
+</html>
